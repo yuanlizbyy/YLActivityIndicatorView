@@ -18,6 +18,8 @@
 		04F5EF2A16A5528600BCE82C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EF2916A5528600BCE82C /* Default-568h@2x.png */; };
 		04F5EF2D16A5528600BCE82C /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF2C16A5528600BCE82C /* YLViewController.m */; };
 		04F5EF3016A5528600BCE82C /* YLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EF2E16A5528600BCE82C /* YLViewController.xib */; };
+		04F5EF3B16A557B000BCE82C /* YLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF3A16A557B000BCE82C /* YLActivityIndicatorView.m */; };
+		04F5EF3F16A55E7C00BCE82C /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF3E16A55E7C00BCE82C /* UIColor+HexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		04F5EF2B16A5528600BCE82C /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
 		04F5EF2C16A5528600BCE82C /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
 		04F5EF2F16A5528600BCE82C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController.xib; sourceTree = "<group>"; };
+		04F5EF3916A557B000BCE82C /* YLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLActivityIndicatorView.h; sourceTree = "<group>"; };
+		04F5EF3A16A557B000BCE82C /* YLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLActivityIndicatorView.m; sourceTree = "<group>"; };
+		04F5EF3D16A55E7C00BCE82C /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		04F5EF3E16A55E7C00BCE82C /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 				04F5EF2B16A5528600BCE82C /* YLViewController.h */,
 				04F5EF2C16A5528600BCE82C /* YLViewController.m */,
 				04F5EF2E16A5528600BCE82C /* YLViewController.xib */,
+				04F5EF3916A557B000BCE82C /* YLActivityIndicatorView.h */,
+				04F5EF3A16A557B000BCE82C /* YLActivityIndicatorView.m */,
+				04F5EF3C16A55E7C00BCE82C /* UIColor */,
 				04F5EF1A16A5528600BCE82C /* Supporting Files */,
 			);
 			path = YLActivityIndicator;
@@ -105,6 +114,16 @@
 				04F5EF2916A5528600BCE82C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F5EF3C16A55E7C00BCE82C /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				04F5EF3D16A55E7C00BCE82C /* UIColor+HexString.h */,
+				04F5EF3E16A55E7C00BCE82C /* UIColor+HexString.m */,
+			);
+			name = UIColor;
+			path = ../../Ronaldo/Ronaldo/Ronaldo/Classes/Utils/UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +196,8 @@
 				04F5EF2016A5528600BCE82C /* main.m in Sources */,
 				04F5EF2416A5528600BCE82C /* YLAppDelegate.m in Sources */,
 				04F5EF2D16A5528600BCE82C /* YLViewController.m in Sources */,
+				04F5EF3B16A557B000BCE82C /* YLActivityIndicatorView.m in Sources */,
+				04F5EF3F16A55E7C00BCE82C /* UIColor+HexString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

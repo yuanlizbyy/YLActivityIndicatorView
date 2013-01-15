@@ -7,6 +7,7 @@
 //
 
 #import "YLViewController.h"
+#import "YLActivityIndicatorView.h"
 
 @interface YLViewController ()
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIScrollView* sv = [[UIScrollView alloc] initWithFrame:CGRectMake(20, 40, 100, 100)];
+    sv.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:sv];
+    sv.contentSize = CGSizeMake(100, 105);
+    YLActivityIndicatorView* v = [[YLActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    v.backgroundColor = [UIColor clearColor];
+    [sv addSubview:v];
+    [v startAnimating];
 }
 
 - (void)didReceiveMemoryWarning
