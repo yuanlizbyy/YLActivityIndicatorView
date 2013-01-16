@@ -3,7 +3,7 @@ YLActivityIndicatorView
 
 A facebook like loading indicator.
 
-![loading.gif](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook_loading.gif)
+Like this: ![loading.gif](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook_loading.gif?raw=true)
 
 ## Example Usage
 
