@@ -31,7 +31,7 @@ v3.dotCount = 5;
 
 Eric Yuan
 - http://github.com/yuanlizbyy
-- http://weibo.com/yuanlizbyy
+- weibo: @袁力Eric
 - http://yuan.li
 - yuanlizbyy@gmail.com
 
