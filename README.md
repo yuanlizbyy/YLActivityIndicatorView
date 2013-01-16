@@ -5,6 +5,8 @@ A facebook like loading indicator.
 
 Like this: ![loading.gif](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook_loading.gif?raw=true)
 
+![screenshot.png](https://raw.github.com/yuanlizbyy/YLActivityIndicatorView/master/screenshot.png)
+
 ## Example Usage
 
 ```objective-c
