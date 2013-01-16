@@ -3,8 +3,8 @@ YLActivityIndicatorView
 
 A facebook like loading indicator.
 
-[![](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook_loading.gif)](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook\_loading.gif)
 ![loading.gif](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook_loading.gif)
+
 ## Example Usage
 
 ```objective-c
