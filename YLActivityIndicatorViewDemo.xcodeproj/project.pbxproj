@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F2FB2C16A6995900628C21 /* YLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2FB2B16A6995900628C21 /* YLActivityIndicatorView.m */; };
 		04F5EF1416A5528600BCE82C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F5EF1316A5528600BCE82C /* UIKit.framework */; };
 		04F5EF1616A5528600BCE82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F5EF1516A5528600BCE82C /* Foundation.framework */; };
 		04F5EF1816A5528600BCE82C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F5EF1716A5528600BCE82C /* CoreGraphics.framework */; };
@@ -18,19 +19,19 @@
 		04F5EF2A16A5528600BCE82C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EF2916A5528600BCE82C /* Default-568h@2x.png */; };
 		04F5EF2D16A5528600BCE82C /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF2C16A5528600BCE82C /* YLViewController.m */; };
 		04F5EF3016A5528600BCE82C /* YLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EF2E16A5528600BCE82C /* YLViewController.xib */; };
-		04F5EF3B16A557B000BCE82C /* YLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF3A16A557B000BCE82C /* YLActivityIndicatorView.m */; };
-		04F5EF3F16A55E7C00BCE82C /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF3E16A55E7C00BCE82C /* UIColor+HexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04F5EF0F16A5528600BCE82C /* YLActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F2FB2A16A6995900628C21 /* YLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLActivityIndicatorView.h; sourceTree = "<group>"; };
+		04F2FB2B16A6995900628C21 /* YLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLActivityIndicatorView.m; sourceTree = "<group>"; };
+		04F5EF0F16A5528600BCE82C /* YLActivityIndicatorViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLActivityIndicatorViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5EF1316A5528600BCE82C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04F5EF1516A5528600BCE82C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04F5EF1716A5528600BCE82C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		04F5EF1B16A5528600BCE82C /* YLActivityIndicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YLActivityIndicator-Info.plist"; sourceTree = "<group>"; };
+		04F5EF1B16A5528600BCE82C /* YLActivityIndicatorViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YLActivityIndicatorViewDemo-Info.plist"; sourceTree = "<group>"; };
 		04F5EF1D16A5528600BCE82C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04F5EF1F16A5528600BCE82C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04F5EF2116A5528600BCE82C /* YLActivityIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLActivityIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		04F5EF2116A5528600BCE82C /* YLActivityIndicatorViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLActivityIndicatorViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		04F5EF2216A5528600BCE82C /* YLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAppDelegate.h; sourceTree = "<group>"; };
 		04F5EF2316A5528600BCE82C /* YLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAppDelegate.m; sourceTree = "<group>"; };
 		04F5EF2516A5528600BCE82C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -39,10 +40,6 @@
 		04F5EF2B16A5528600BCE82C /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
 		04F5EF2C16A5528600BCE82C /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
 		04F5EF2F16A5528600BCE82C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController.xib; sourceTree = "<group>"; };
-		04F5EF3916A557B000BCE82C /* YLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLActivityIndicatorView.h; sourceTree = "<group>"; };
-		04F5EF3A16A557B000BCE82C /* YLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLActivityIndicatorView.m; sourceTree = "<group>"; };
-		04F5EF3D16A55E7C00BCE82C /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
-		04F5EF3E16A55E7C00BCE82C /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +56,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F2FB2916A6995900628C21 /* YLActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				04F2FB2A16A6995900628C21 /* YLActivityIndicatorView.h */,
+				04F2FB2B16A6995900628C21 /* YLActivityIndicatorView.m */,
+			);
+			path = YLActivityIndicatorView;
+			sourceTree = "<group>";
+		};
 		04F5EF0416A5528600BCE82C = {
 			isa = PBXGroup;
 			children = (
-				04F5EF1916A5528600BCE82C /* YLActivityIndicator */,
+				04F5EF1916A5528600BCE82C /* YLActivityIndicatorViewDemo */,
 				04F5EF1216A5528600BCE82C /* Frameworks */,
 				04F5EF1016A5528600BCE82C /* Products */,
 			);
@@ -71,7 +77,7 @@
 		04F5EF1016A5528600BCE82C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04F5EF0F16A5528600BCE82C /* YLActivityIndicator.app */,
+				04F5EF0F16A5528600BCE82C /* YLActivityIndicatorViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,29 +92,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		04F5EF1916A5528600BCE82C /* YLActivityIndicator */ = {
+		04F5EF1916A5528600BCE82C /* YLActivityIndicatorViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04F2FB2916A6995900628C21 /* YLActivityIndicatorView */,
 				04F5EF2216A5528600BCE82C /* YLAppDelegate.h */,
 				04F5EF2316A5528600BCE82C /* YLAppDelegate.m */,
 				04F5EF2B16A5528600BCE82C /* YLViewController.h */,
 				04F5EF2C16A5528600BCE82C /* YLViewController.m */,
 				04F5EF2E16A5528600BCE82C /* YLViewController.xib */,
-				04F5EF3916A557B000BCE82C /* YLActivityIndicatorView.h */,
-				04F5EF3A16A557B000BCE82C /* YLActivityIndicatorView.m */,
-				04F5EF3C16A55E7C00BCE82C /* UIColor */,
 				04F5EF1A16A5528600BCE82C /* Supporting Files */,
 			);
+			name = YLActivityIndicatorViewDemo;
 			path = YLActivityIndicator;
 			sourceTree = "<group>";
 		};
 		04F5EF1A16A5528600BCE82C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04F5EF1B16A5528600BCE82C /* YLActivityIndicator-Info.plist */,
+				04F5EF1B16A5528600BCE82C /* YLActivityIndicatorViewDemo-Info.plist */,
 				04F5EF1C16A5528600BCE82C /* InfoPlist.strings */,
 				04F5EF1F16A5528600BCE82C /* main.m */,
-				04F5EF2116A5528600BCE82C /* YLActivityIndicator-Prefix.pch */,
+				04F5EF2116A5528600BCE82C /* YLActivityIndicatorViewDemo-Prefix.pch */,
 				04F5EF2516A5528600BCE82C /* Default.png */,
 				04F5EF2716A5528600BCE82C /* Default@2x.png */,
 				04F5EF2916A5528600BCE82C /* Default-568h@2x.png */,
@@ -116,22 +121,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04F5EF3C16A55E7C00BCE82C /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				04F5EF3D16A55E7C00BCE82C /* UIColor+HexString.h */,
-				04F5EF3E16A55E7C00BCE82C /* UIColor+HexString.m */,
-			);
-			name = UIColor;
-			path = ../../Ronaldo/Ronaldo/Ronaldo/Classes/Utils/UIColor;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04F5EF0E16A5528600BCE82C /* YLActivityIndicator */ = {
+		04F5EF0E16A5528600BCE82C /* YLActivityIndicatorViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04F5EF3316A5528600BCE82C /* Build configuration list for PBXNativeTarget "YLActivityIndicator" */;
+			buildConfigurationList = 04F5EF3316A5528600BCE82C /* Build configuration list for PBXNativeTarget "YLActivityIndicatorViewDemo" */;
 			buildPhases = (
 				04F5EF0B16A5528600BCE82C /* Sources */,
 				04F5EF0C16A5528600BCE82C /* Frameworks */,
@@ -141,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = YLActivityIndicator;
+			name = YLActivityIndicatorViewDemo;
 			productName = YLActivityIndicator;
-			productReference = 04F5EF0F16A5528600BCE82C /* YLActivityIndicator.app */;
+			productReference = 04F5EF0F16A5528600BCE82C /* YLActivityIndicatorViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +151,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = jimu.tv;
 			};
-			buildConfigurationList = 04F5EF0916A5528600BCE82C /* Build configuration list for PBXProject "YLActivityIndicator" */;
+			buildConfigurationList = 04F5EF0916A5528600BCE82C /* Build configuration list for PBXProject "YLActivityIndicatorViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04F5EF0E16A5528600BCE82C /* YLActivityIndicator */,
+				04F5EF0E16A5528600BCE82C /* YLActivityIndicatorViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -196,8 +191,7 @@
 				04F5EF2016A5528600BCE82C /* main.m in Sources */,
 				04F5EF2416A5528600BCE82C /* YLAppDelegate.m in Sources */,
 				04F5EF2D16A5528600BCE82C /* YLViewController.m in Sources */,
-				04F5EF3B16A557B000BCE82C /* YLActivityIndicatorView.m in Sources */,
-				04F5EF3F16A55E7C00BCE82C /* UIColor+HexString.m in Sources */,
+				04F2FB2C16A6995900628C21 /* YLActivityIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +271,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YLActivityIndicator/YLActivityIndicator-Prefix.pch";
-				INFOPLIST_FILE = "YLActivityIndicator/YLActivityIndicator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "YLActivityIndicator/YLActivityIndicatorViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YLActivityIndicator/YLActivityIndicatorViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YLActivityIndicatorViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -288,9 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YLActivityIndicator/YLActivityIndicator-Prefix.pch";
-				INFOPLIST_FILE = "YLActivityIndicator/YLActivityIndicator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "YLActivityIndicator/YLActivityIndicatorViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "YLActivityIndicator/YLActivityIndicatorViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = YLActivityIndicatorViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04F5EF0916A5528600BCE82C /* Build configuration list for PBXProject "YLActivityIndicator" */ = {
+		04F5EF0916A5528600BCE82C /* Build configuration list for PBXProject "YLActivityIndicatorViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F5EF3116A5528600BCE82C /* Debug */,
@@ -307,13 +303,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04F5EF3316A5528600BCE82C /* Build configuration list for PBXNativeTarget "YLActivityIndicator" */ = {
+		04F5EF3316A5528600BCE82C /* Build configuration list for PBXNativeTarget "YLActivityIndicatorViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04F5EF3416A5528600BCE82C /* Debug */,
 				04F5EF3516A5528600BCE82C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

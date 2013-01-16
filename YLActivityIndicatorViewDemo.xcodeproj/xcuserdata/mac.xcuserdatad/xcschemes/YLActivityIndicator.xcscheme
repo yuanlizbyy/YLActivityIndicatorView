@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04F5EF0E16A5528600BCE82C"
                BuildableName = "YLActivityIndicator.app"
-               BlueprintName = "YLActivityIndicator"
-               ReferencedContainer = "container:YLActivityIndicator.xcodeproj">
+               BlueprintName = "YLActivityIndicatorViewDemo"
+               ReferencedContainer = "container:YLActivityIndicatorViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,14 +34,14 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04F5EF0E16A5528600BCE82C"
             BuildableName = "YLActivityIndicator.app"
-            BlueprintName = "YLActivityIndicator"
-            ReferencedContainer = "container:YLActivityIndicator.xcodeproj">
+            BlueprintName = "YLActivityIndicatorViewDemo"
+            ReferencedContainer = "container:YLActivityIndicatorViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04F5EF0E16A5528600BCE82C"
             BuildableName = "YLActivityIndicator.app"
-            BlueprintName = "YLActivityIndicator"
-            ReferencedContainer = "container:YLActivityIndicator.xcodeproj">
+            BlueprintName = "YLActivityIndicatorViewDemo"
+            ReferencedContainer = "container:YLActivityIndicatorViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04F5EF0E16A5528600BCE82C"
             BuildableName = "YLActivityIndicator.app"
-            BlueprintName = "YLActivityIndicator"
-            ReferencedContainer = "container:YLActivityIndicator.xcodeproj">
+            BlueprintName = "YLActivityIndicatorViewDemo"
+            ReferencedContainer = "container:YLActivityIndicatorViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

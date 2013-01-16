@@ -18,16 +18,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    YLActivityIndicatorView* v1 = [[YLActivityIndicatorView alloc] init];
+    v1.center = CGPointMake(160, 20);
+    [self.view addSubview:v1];
+    [v1 startAnimating];
     
-    UIScrollView* sv = [[UIScrollView alloc] initWithFrame:CGRectMake(20, 40, 100, 100)];
-    sv.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:sv];
-    sv.contentSize = CGSizeMake(100, 105);
-    YLActivityIndicatorView* v = [[YLActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
-    v.backgroundColor = [UIColor clearColor];
-    [sv addSubview:v];
-    [v startAnimating];
+    YLActivityIndicatorView* v2 = [[YLActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 40, 20)];
+    v2.center = CGPointMake(160, 55);
+    v2.duration = .8f;
+    [self.view addSubview:v2];
+    [v2 startAnimating];
+    
+    YLActivityIndicatorView* v3 = [[YLActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 40, 15)];
+    v3.center = CGPointMake(160, 90);
+    v3.dotCount = 5;
+    [self.view addSubview:v3];
+    [v3 startAnimating];
 }
 
 - (void)didReceiveMemoryWarning
