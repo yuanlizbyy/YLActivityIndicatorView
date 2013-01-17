@@ -20,6 +20,7 @@
     _dotCount = 3;
     _isAnimating = NO;
     _duration = .6f;
+    _hidesWhenStopped = YES;
 }
 
 - (id)initWithFrame:(CGRect)frame
