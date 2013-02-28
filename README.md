@@ -1,7 +1,7 @@
 YLActivityIndicatorView
 =======================
 
-A facebook like loading indicator.
+A facebook like loading indicator. Used in [here](https://itunes.apple.com/us/app/you-xi-jie-shuo-shi-pin-xing/id596678901?ls=1&mt=8) and [here](https://itunes.apple.com/cn/app/you-xi-jie-shuo-shi-pin-ying/id599921630?mt=8).
 
 Like this: ![loading.gif](https://github.com/yuanlizbyy/YLActivityIndicatorView/blob/master/facebook_loading.gif?raw=true)
 
